@@ -1,0 +1,12 @@
+{
+  "name": "librarys-and-frameworks",
+  "version": "1.0.0",
+  "description": "This a test of frameworks and librarys JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hey!"
+  },
+  "keywords": ["frameworks","librarys", "javascript"],
+  "author": "Robert Vásquez <vasquezrober09@gmail.com>",
+  "license": "MIT"
+}
