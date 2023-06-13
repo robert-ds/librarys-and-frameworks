@@ -2,11 +2,30 @@
   "name": "librarys-and-frameworks",
   "version": "1.0.0",
   "description": "This a test of frameworks and librarys JS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo hey!"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "keywords": ["frameworks","librarys", "javascript"],
+  "keywords": [
+    "frameworks",
+    "librarys",
+    "javascript"
+  ],
   "author": "Robert Vásquez <vasquezrober09@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
